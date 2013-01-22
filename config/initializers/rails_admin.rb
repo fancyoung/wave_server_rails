@@ -51,15 +51,4 @@ RailsAdmin.config do |config|
 
   # Now you probably need to tour the wiki a bit: https://github.com/sferik/rails_admin/wiki
   # Anyway, here is how RailsAdmin saw your application's models when you ran the initializer:
-
-  config.model 'Article' do
-    label '文章'
-    label_plural '文章'
-    field :title do
-      label '标题'
-    end
-    field :description do
-      label '简介'
-    end
-  end
 end
