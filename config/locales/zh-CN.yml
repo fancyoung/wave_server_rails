@@ -1,8 +1,17 @@
 zh-CN:
   mongoid:
     models:
+      user: "用户"
       article: "文章"
     attributes:
+      user:
+        email: "邮箱"
+        sign_in_count: "登录次数"
+        remember_created_at: "注册时间"
+        current_sign_in_at: "本次登录时间"
+        last_sign_in_at: "上次登录时间"
+        current_sign_in_ip: "本次登录IP"
+        last_sign_in_ip: "上次登录IP"
       article:
         title: "标题"
         content: "内容"
